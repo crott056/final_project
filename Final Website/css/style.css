@@ -1,0 +1,348 @@
+/* You may set the width and height of container/section elements in percentages.
+DO NOT USE PERCENTAGES IN TEXTS AND IMAGES : No responsiveness  */
+
+
+body {
+  background-size: 100%;
+}
+
+
+
+.fill {
+  width: 100vw;
+  height: 500vh;
+  background: url(../images/f.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moving 3s infinite alternate;
+}
+
+@keyframes moving {
+  0% {background-position: 0px 0px;}
+  100% {background-position: 50px 50px;}
+}
+
+.lines {
+  width: 100vw;
+  height: 480vh;
+  background: url(../images/l.svg);
+	mix-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moving2 3s infinite alternate;
+}
+
+@keyframes moving2 {
+  0% {background-position: 0px 0px;}
+  100% {background-position: -50px -50px;}
+}
+
+.sticky {
+  position: fixed;
+  top: 30px;
+  left: 1250px;
+  z-index: 1;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 7px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.mainmenubtn {
+    background-color: #4f5f6e;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    padding-left:17px;
+    padding-top: 2px;
+    margin-top:20px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+.mainmenubtn:hover {
+    background-color: #4f5f6e;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.dropdown-child {
+    display: none;
+    background-color: #4f5f6e;
+    min-width: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+#container {
+	width: 100vw;
+	height: 100vh;
+
+	position: absolute;
+  top:50px;
+}
+
+.section {
+	width: 100%;
+	height: 907px;
+}
+
+#first {
+	background: none;
+}
+
+#second {
+	background: none;
+}
+
+#third {
+	background: none;
+}
+
+#fourth {
+	background: none;
+}
+
+.square1 {
+  position: absolute;
+	left: 0px;
+	top: 155px;
+  width:800px;
+  height: 550px;
+  background-color: #f4c85e;
+  opacity: 0.1;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+  color: #4f5f6e;
+}
+
+#first_text {
+	position: absolute;
+	left: 70px;
+	top: 60px;
+  font-size: 6em;
+	color: #4f5f6e;
+}
+
+#second_text {
+  position: absolute;
+	left: 70px;
+	top: 175px;
+  font-size: 3.5em;
+	color: #4f5f6e;
+}
+
+.sound {
+  position: absolute;
+  left: 450px;
+	top: 185px;
+  width:50px;
+  height:50px;
+}
+
+#third_text {
+  position: absolute;
+	left: 70px;
+	top: 265px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+}
+
+#fourth_text {
+  position: absolute;
+	left: 70px;
+	top: 450px;
+  font-size: 1.5em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+}
+
+.photo1 {
+  position: absolute;
+  left: 680px;
+	top: 260px;
+  width:760px;
+  height:870px;
+}
+
+.square2 {
+  position: absolute;
+	left: 480px;
+	top: 1320px;
+  width:960px;
+  height: 580px;
+  background-color: #f4725c;
+  opacity: 0.2;
+}
+
+#fifth_text {
+  position: absolute;
+	left: 880px;
+	top: 1200px;
+  font-size: 6em;
+	color: #4f5f6e;
+  line-height: 1.25em;
+}
+
+.hl1 {
+position: absolute;
+background-color: #4f5f6e;
+left: 885px;
+top: 1460px;
+width: 80px;
+height: 5px;
+}
+
+#sixth_text {
+  position: absolute;
+	left: 880px;
+	top: 1500px;
+  font-size: 2.0em;
+  color: #4f5f6e;
+  line-height: 1.75em;
+}
+
+.p1 {
+  position: absolute;
+  left: 0px;
+	top: 1430px;
+  width:760px;
+  height:870px;
+}
+
+.square3 {
+  position: absolute;
+	left: 830px;
+	top: 2125px;
+  width:450px;
+  height: 200px;
+  background-color: #4f5f6e;
+  opacity: 0.3;
+}
+
+#seventh_text {
+  position: absolute;
+	left: 895px;
+	top: 2175px;
+  font-size: 2em;
+	color: #4f5f6e;
+  line-height: 1.25em;
+}
+
+#eigth_text {
+  position: absolute;
+	left: 870px;
+	top: 2230px;
+  font-size: 1.25em;
+  color: #4f5f6e;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.square4 {
+  position: absolute;
+	left: 0px;
+	top: 2500px;
+  width:800px;
+  height: 500px;
+  background-color: #9dc3bb;
+  opacity: 0.4;
+}
+
+#ninth_text {
+  position: absolute;
+	left: 70px;
+	top: 2390px;
+  font-size: 6em;
+	color: #4f5f6e;
+}
+
+#tenth_text {
+  position: absolute;
+	left: 70px;
+	top: 2520px;
+  font-size: 2em;
+	color: #4f5f6e;
+  line-height: 1.25em;
+}
+
+.hl2 {
+position: absolute;
+background-color: #4f5f6e;
+left: 75px;
+top: 2605px;
+width: 80px;
+height: 5px;
+}
+
+#eleventh_text {
+  position: absolute;
+	left: 70px;
+	top: 2650px;
+  font-size: 2.0em;
+  color: #4f5f6e;
+  line-height: 1.75em;
+}
+
+.photo2 {
+  position: absolute;
+  left: 740px;
+	top: 2640px;
+  width:700px;
+  height:840px;
+}
+
+#twelveth_text {
+  position: absolute;
+	left: 70px;
+	top: 3350px;
+  font-size: 6em;
+	color: #4f5f6e;
+}
+
+#thirteenth_text {
+  position: absolute;
+	left: 70px;
+	top: 3550px;
+  font-size: 2.0em;
+  color: #4f5f6e;
+  line-height: 1.75em;
+}
+
+.square5 {
+  position: absolute;
+	left: 0px;
+	top: 3460px;
+  width:800px;
+  height: 320px;
+  background-color: #f7a467;
+  opacity: 0.4;
+}
+
+.hl3 {
+position: absolute;
+background-color: #4f5f6e;
+left: 75px;
+top: 3505px;
+width: 80px;
+height: 5px;
+}

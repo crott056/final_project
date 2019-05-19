@@ -1,0 +1,58 @@
+/* You may set the width and height of container/section elements in percentages.
+DO NOT USE PERCENTAGES IN TEXTS AND IMAGES : No responsiveness  */
+
+
+body {
+  background-size: 100%;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100%;
+  background-color: #f4c85e;
+  opacity: 0.1;
+  position: absolute;
+
+}
+
+.fill {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/fill2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moving 3s infinite alternate;
+}
+
+@keyframes moving {
+  0% {background-position: 0px 0px;}
+  100% {background-position: 50px 50px;}
+}
+
+.lines {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/lines2.svg);
+	mix-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moving2 3s infinite alternate;
+}
+
+@keyframes moving2 {
+  0% {background-position: 0px 0px;}
+  100% {background-position: -50px -50px;}
+}
+
+.title1 {
+  position: absolute;
+	left: 200px;
+	top: 250px;
+  width:75vw;
+  height: 50vh;
+}
+
+.title {
+  mix-blend-mode: multiply;
+}

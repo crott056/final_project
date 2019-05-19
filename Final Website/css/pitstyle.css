@@ -1,0 +1,284 @@
+body {
+  background-size: 100%;
+}
+
+.fill {
+  width: 100vw;
+  height: 300vh;
+  background: url(../images/fl.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moving 3s infinite alternate;
+}
+
+@keyframes moving {
+  0% {background-position: 0px 0px;}
+  100% {background-position: 50px 50px;}
+}
+
+.lines {
+  width: 100vw;
+  height: 300vh;
+  background: url(../images/ln.svg);
+	mix-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moving2 3s infinite alternate;
+}
+
+@keyframes moving2 {
+  0% {background-position: 0px 0px;}
+  100% {background-position: -50px -50px;}
+}
+
+.sticky {
+  position: fixed;
+  top: 30px;
+  left: 110px;
+  z-index: 1;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 7px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.mainmenubtn {
+    background-color: #4f5f6e;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    padding-left:17px;
+    padding-top: 2px;
+    margin-top:20px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+.mainmenubtn:hover {
+    background-color: #4f5f6e;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.dropdown-child {
+    display: none;
+    background-color: #4f5f6e;
+    min-width: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+#container {
+	width: 100vw;
+	height: 100vh;
+
+	position: absolute;
+  top:50px;
+}
+
+.section {
+	width: 100%;
+	height: 907px;
+}
+
+#first {
+	background: none;
+}
+
+#second {
+	background: none;
+}
+
+.square1 {
+  position: absolute;
+	left: 480px;
+	top: 180px;
+  width:960px;
+  height: 780px;
+  background-color: #f4725c;
+  opacity: 0.2;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+  color: #4f5f6e;
+}
+
+#first_text {
+	position: absolute;
+  left: 880px;
+	top: 60px;
+  font-size: 6em;
+	color: #4f5f6e;
+  line-height: 1.25em;
+}
+
+
+#second_text {
+  position: absolute;
+	left: 880px;
+	top: 365px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+}
+
+.hl1 {
+position: absolute;
+background-color: #4f5f6e;
+left: 885px;
+top: 325px;
+width: 80px;
+height: 5px;
+}
+
+.square2 {
+  position: absolute;
+	left: 0px;
+	top: 500px;
+  width:800px;
+  height: 700px;
+  background-color: #9dc3bb;
+  opacity: 0.4;
+}
+
+#third_text {
+  position: absolute;
+	left: 110px;
+	top: 600px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+.icons {
+  position: absolute;
+  top: 1640px;
+  left: 200px;
+  width: 700px;
+}
+
+.square3 {
+  position: absolute;
+	left: 0px;
+	top: 1500px;
+  width:100vw;
+  height: 850px;
+  background-color: #f4c85e;
+  opacity: 0.1;
+}
+
+#fourth_text {
+	position: absolute;
+  left: 650px;
+	top: 1350px;
+  font-size: 6em;
+	color: #4f5f6e;
+  line-height: 1.25em;
+}
+
+.hl2 {
+position: absolute;
+background-color: #4f5f6e;
+left: 710px;
+top: 1550px;
+width: 80px;
+height: 5px;
+}
+
+#fifth_text {
+  position: absolute;
+	left: 350px;
+	top: 1640px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+#sixth_text {
+  position: absolute;
+	left: 945px;
+	top: 1640px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+#seventh_text {
+  position: absolute;
+	left: 350px;
+	top: 1830px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+#eigth_text {
+  position: absolute;
+	left: 945px;
+	top: 1830px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+#ninth_text {
+  position: absolute;
+	left: 350px;
+	top: 1970px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+#tenth_text {
+  position: absolute;
+	left: 935px;
+	top: 1970px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+#eleventh_text {
+  position: absolute;
+	left: 350px;
+	top: 2140px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+#twelveth_text {
+  position: absolute;
+	left: 935px;
+	top: 2140px;
+  font-size: 2.0em;
+	color: #4f5f6e;
+  line-height: 1.5em;
+  z-index: 1;
+}
